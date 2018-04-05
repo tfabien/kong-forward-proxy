@@ -2,6 +2,8 @@
 
 A Kong plugin that allows access to an upstream url through a forward proxy (eg. squid).
 
+![---](kong-forward-proxy.png?raw=true)
+
 ## Installation
 Clone the repository, navigate to the root folder and run:
 ```
