@@ -1,0 +1,24 @@
+digraph G {
+  rankdir = LR;
+  node [shape=box]
+  
+  subgraph cluster_0 {
+    label = "KONG";
+	style=filled;
+	fillcolor=lightblue;
+	node [style=filled fillcolor=white]
+	"API 1"
+	"API 2"
+  }
+  
+  "Corporate Proxy"[style=filled fillcolor=lightyellow]
+  
+  { rank=same
+      "UpstreamURL 1"
+      "UpstreamURL 2"
+  }
+  
+  Consumer -> "API 1" -> "Corporate Proxy" -> "UpstreamURL 1"
+  Consumer -> "API 2" -> "UpstreamURL 2"
+  
+}
