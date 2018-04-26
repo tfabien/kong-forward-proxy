@@ -28,7 +28,7 @@ Restart Kong.
 
 ## Configuration
 Add this plugin globally or attached to an API.
-Calls to the API's upstream URL will be proxied through the specify proxy host and port
+Calls to the API's upstream URL will then be proxied through the specify proxy host and port.
 
 ```bash
 $ curl -X POST http://kong:8001/apis/{api}/plugins \

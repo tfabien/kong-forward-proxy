@@ -1,7 +1,7 @@
 package = "kong-forward-proxy"
 version = "0.1.0-0"
 source = {
-  url = "git://github.com/nvmlabs/kong-dynamic-upstream"
+  url = "git://github.com/tfabien/kong-forward-proxy"
 }
 description = {
   summary = "A Kong plugin that allows access to an upstream url through a proxy",
