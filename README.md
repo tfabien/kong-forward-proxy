@@ -4,7 +4,15 @@ A Kong plugin that allows access to an upstream url through a forward proxy (eg.
 
 ![---](kong-forward-proxy.png?raw=true)
 
+## Test with Docker
+
+Clone the repository, navigate to the root folder and run:
+```
+docker-compose up
+```
+
 ## Installation
+
 Clone the repository, navigate to the root folder and run:
 ```
 make install
