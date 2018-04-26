@@ -45,15 +45,15 @@ $ curl -X POST http://localhost:8001
 ```
 ```javascript
 {
-	"plugins": {
-		"enabled_in_cluster": [],
-		"available_on_server": {
-			// ...
-            "forward-proxy": true,
-            // ...
-		}
-	}
-	// ...
+  "plugins": {
+    "enabled_in_cluster": [],
+    "available_on_server": {
+      // ...
+      "forward-proxy": true,
+      // ...
+    }
+  }
+  // ...
 }
 ```
 
