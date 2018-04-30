@@ -39,7 +39,7 @@ Clone the repository, navigate to the root folder and run:
 ```bash
 $ docker-compose up
 ```
-Wait for the startup and migration of the database to complete and access check plugin availability:
+Wait for the startup and migration of the database to complete and check plugin availability:
 ```bash
 $ curl -X POST http://localhost:8001
 ```
