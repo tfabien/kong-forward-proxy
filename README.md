@@ -37,7 +37,7 @@ Running it will spin-up a Cassandra database and Kong instance with the plugin i
 
 Clone the repository, navigate to the root folder and run:
 ```bash
-$ docker-compose up
+$ docker-compose up -d
 ```
 Wait for the startup and migration of the database to complete and check plugin availability:
 ```bash
